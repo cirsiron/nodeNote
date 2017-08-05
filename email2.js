@@ -1,6 +1,7 @@
 var nodemailer = require("nodemailer");
  var smtpTransport = require('nodemailer-smtp-transport');
 var transport = nodemailer.createTransport(smtpTransport({
+   // FIXME 这里如果换成qq邮箱的话，就必须采用对应的pass
     host: "smtp.163.com",
     secureConnection: true, // use SSL
     port: 25, // port for secure SMTP
