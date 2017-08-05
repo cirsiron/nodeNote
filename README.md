@@ -1,4 +1,5 @@
-nodejs-nodemailer
+实现电脑开机-关机，自动发送邮件到指定邮箱
 =================
+1. 使用node的nodemailer模块。
+2. 将seed_mail.bat加入策略组，开机启动.
 
-nodejs 发邮件 
